@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int fibonacci (int z=0) {
+void fibonacci (int z=0) {
     int x=1, y=0, n=0;
     cin >>n;
     for (;z<=n;){
@@ -12,7 +12,6 @@ int fibonacci (int z=0) {
             cout <<z <<endl;
         }
     }
-    return z;
 }
 int main(){
     fibonacci(0);
